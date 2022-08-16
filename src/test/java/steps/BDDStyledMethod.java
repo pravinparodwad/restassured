@@ -53,7 +53,7 @@ public class BDDStyledMethod {
     }
 
     public static void PerformPOSTWithBodyParameter() {
-        HashMap<String,String> postContent = new HashMap<>();
+        HashMap<String,String> postContent = new HashMap<String, String>();
         postContent.put("id", "5");
         postContent.put("title", "Robotium course");
         postContent.put("author", "ExecuteAutomation");
